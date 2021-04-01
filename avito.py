@@ -10,9 +10,9 @@ try:
     browser.get(link1)
     time.sleep(5)
     login1 = browser.find_element_by_name("login")
-    login1.send_keys("+7 982 991-47-45")# вписываем свой логин
+    login1.send_keys("")# вписываем свой логин
     puss1 = browser.find_element_by_name("password")
-    puss1.send_keys("Viranovsky4745")# вписываем свой пароль
+    puss1.send_keys("")# вписываем свой пароль
     time.sleep(1)
     button = browser.find_element_by_name("submit")# авторизуемся
     button.click()
